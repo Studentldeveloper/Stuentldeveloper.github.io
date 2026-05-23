@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight-Hotell</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="box1">
+    <video width="1900" autoplay muted playsinline loop>
+        <source src="vids/flight.mp4" type="video/mp4">
+    </video>
+</header>
+
+<main>
+
+<section id="plane">
+
+    <h1>Find your flight & hotel for tomorrow's trip</h1>
+
+    <form class="search-container">
+        <input
+            type="search"
+            id="search"
+            placeholder="sök"
+        >
+
+        <button type="submit" class="knapp">
+            Sök
+        </button>
+    </form> 
+</section>
+
+    <div id="output"></div> 
+
+
+    <div class="container">
+
+        <div class="card">
+            <video class="story-video active-video" muted playsinline>
+                <source src="vids/stressed.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="opening">
+            <video class="story-video" muted playsinline>
+                <source src="vids/opening.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="search-card">
+            <video class="story-video" muted playsinline>
+                <source src="vids/search.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="flightTakingOff">
+            <video class="story-video" muted playsinline>
+                <source src="vids/FlightTakingOff.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="hotelMan">
+            <video class="story-video" muted playsinline>
+                <source src="vids/hotelMan.mp4" type="video/mp4">
+            </video>
+        </div>
+
+    </div>
+
+
+
+
+</main>  
+<footer class="footer">
+    <p>2026 Flight & Hotel</p>
+
+    <a href="mailto:support@flighthotel.com" class="contact-b">
+        Kontakta Oss
+    </a>
+</footer>
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
